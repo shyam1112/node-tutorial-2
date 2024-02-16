@@ -1,6 +1,6 @@
 const express = require('express');
 const router = express.Router();
-const Users = require('../db/userSchema');
+const Users = require('../../db/userSchema');
 
 router.get('/',(req,res)=>{
     res.send("This is get request from users.")

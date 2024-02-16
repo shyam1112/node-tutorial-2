@@ -1,6 +1,6 @@
 const express = require('express');
 const user = require('./routers/users');
-require('./db/config');
+require('../db/config');
 
 const app = express();
 app.use(express.json());
